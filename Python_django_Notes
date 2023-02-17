@@ -1,0 +1,466 @@
+check conda env name
+----------------------------------------
+1. conda info --envs
+1. conda env list
+
+1. To create an environment:
+------------------------------------
+conda create --name myenv
+
+2. To Activate an active environment:
+---------------------------------------
+conda activate myenv
+
+3. To deactivate an active environment:
+---------------------------------------
+conda deactivate
+
+python libraries :
+----------------------------------------------
+
+https://pypi.org/project/django-unused-media/
+
+update libraries:
+--------------------
+pip list --outdated
+pip install autopep8 2.0.1  -> single package upgrade
+
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt --upgrade
+
+
+
+
+Project Setup:
+----------------------------------------------
+
+django-admin startproject Dependentdropdown
+django-admin startapp myapp
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+py manage.py cleanup_unused_media
+py manage.py shell
+python manage.py collectstatic
+
+
+
+INSTALLED_APPS:
+-----------------------------------------
+
+INSTALLED_APPS =[
+      'django_unused_media',   # pip install django-unused-media
+
+ ]
+
+
+
+
+Settings:
+-------------------------------------------------------
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+MEDIA_URL="/media/"
+MEDIA_ROOT=os.path.join(BASE_DIR,"media")
+
+STATIC_URL="/static/"
+STATIC_ROOT=os.path.join(BASE_DIR,"static")
+
+
+TEMPLATES = [
+		{
+		"DIRS": ['TEMPLATE_DIR,'],
+		}
+]
+
+STATIC_URL = "static/"
+STATICFILES_DIRS = [STATIC_DIR,]
+# MEDIA
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
+
+urls:
+-------------------------------------------------------
+from django.conf import settings
+from django.conf.urls.static import static
+from .views import *
+
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+	
+views:
+---------------	
+from django.http import HttpResponse,HttpResponseRedirect
+from django.urls import reverse
+
+if request.method == "POST":
+        return HttpResponseRedirect(reverse("student_apply_leave"))
+else:
+
+
+	
+How to MySQl Database Connection in Django Python ?
+
+--------------------------------------------------------------
+
+DATABASES = {  
+    'default': {  
+        'ENGINE': 'django.db.backends.mysql',  
+        'NAME': 'exampleapp',  
+        'USER':'root',  
+        'PASSWORD':'root',  
+        'HOST':'localhost',  
+        'PORT':'3306'  
+    }  
+} 
+
+Checking outdated package List:
+
+    pip list --outdated
+	
+python all package upgrade commend:
+
+    pip_upgrade_outdated
+	
+	
+Example 1: using If Condition
+-------------------------------
+
+myList = []
+  
+# Check List Empty or not
+if myList:
+    print("List is not empty.")
+else:
+    print("List is empty.")
+	
+Output :
+-------------------------------
+List is empty.
+
+Example 2: using If Not Condition
+-------------------------------
+myList = []
+  
+# Check List Empty or not
+if not myList:
+    print("List is empty.")
+else:
+    print("List is not empty.")
+	
+Output :
+-------------------------------
+List is empty.
+
+Example 3: using bool() Function
+-------------------------------
+myList = []
+  
+# Check List Empty or not
+if bool(myList):
+    print("List is empty.")
+else:
+    print("List is not empty.")
+	
+Output :
+-------------------------------
+List is empty.
+
+
+Example 4: using len() Function
+-------------------------------
+myList = []
+  
+# Check List Empty or not
+if len(myList):
+    print("List is not empty.")
+else:
+    print("List is empty.")
+	
+Output :
+-------------------------------
+List is empty.
+
+
+Example 5: using len() with "0" Function
+-------------------------------
+myList = []
+  
+# Check List Empty or not
+if len(myList) == 0:
+    print("List is empty.")
+else:
+    print("List is not empty.")
+	
+Output :
+-------------------------------
+List is empty.
+
+
+Django-Admin Tutorial:
+---------------------------------------
+
+
+
+
+
+CRUD using Django Ajax and jQuery 
+-------------------------------
+https://www.youtube.com/watch?v=Bfgtp62VFeU
+
+
+
+
+https://www.djangosites.org/
+https://tuts-station.com/blog/cat/django?page=15
+
+
+Django Admin Tutorial:
+------------------------
+https://www.youtube.com/watch?v=c_S0ZQs81XQ&list=PLOLrQ9Pn6cazhaxNDhcOIPYXt2zZhAXKO&index=1
+
+
+
+
+
+https://www.youtube.com/watch?v=Su2SBUPEwxw&list=PLDLLuBZ1-EtuISdgFMcP5SfCES2pb1hGG&index=1
+https://www.youtube.com/watch?v=I8TRkEcw9Mg
+
+Django CRM Course - Learn how to build a CRM using Python:
+
+https://www.youtube.com/watch?v=LWro0nVdrBw&list=PLpyspNLjzwBka94O3ABYcRYk8IaBR8hXZ&index=1
+
+
+Resume Uploader Django Project (Hindi):
+
+https://www.youtube.com/watch?v=835Ez8SeAvE
+
+
+https://learnbatta.com/blog/django-image-and-file-upload-using-ajax-21/
+
+Dependentdropdown:
+--------------------
+https://samiddha99.medium.com/implement-dynamic-select-options-with-django-d04e791f0483
+
+https://panjwanitutorials.com/about/?headingid=3&courseid=2
+
+
+
+
+
+
+Git tutorial:
+---------------------------
+
+
+https://www.youtube.com/watch?v=eGaImwD8fPQ
+
+
+
+git:
+
+git init
+git status
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/gopalsrinivas/test_repo.git
+git push -u origin master
+
+Git:
+
+create a new repository on the command line
+--------------------------------------------------------
+echo "# tag_system" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gopalsrinivas/tag_system.git
+git push -u origin main
+
+git remote add origin https://...
+git remote remove master
+git push -u origin master
+git remote set-url origin https://...
+
+
+
+
+https://github.com/gopalsrinivas/test.git
+
+
+or push an existing repository from the command line
+--------------------------------------------------------
+git remote add origin https://github.com/gopalsrinivas/Send-Email-with-Attachment-in-Python-Django.git
+git branch -M main
+git push -u origin main
+
+
+
+Package list:
+----------------------------
+
+args>=0.1.0
+arrow>=0.13.1
+asgiref>=2.3.2
+asn1crypto>=0.24.0
+async-timeout>=2.0.1
+attrs>=18.2.0
+autobahn>=19.2.1
+Automat>=0.7.0
+Babel>=2.6.0
+beautifulsoup4>=4.7.1
+cairocffi>=1.0.2
+CairoSVG>=2.3.0
+certifi>=2018.11.29
+cffi>=1.12.2
+chardet>=3.0.4
+clint>=0.5.1
+constantly>=15.1.0
+cryptography>=2.5
+cssselect2>=0.2.1
+defusedxml>=0.5.0
+dj-database-url>=0.5.0
+Django>=2.1.7
+django-admin-honeypot>=1.1.0
+django-allauth>=0.38.0
+django-appconf>=1.0.2
+django-channels>=0.7.0
+django-ckeditor>=5.6.1
+django-compressor>=2.2
+django-crispy-forms>=1.7.2
+django-debug-toolbar>=1.11
+django-encrypted-model-fields>=0.5.8
+django-filter>=2.1.0
+django-haystack>=2.8.1
+django-hosts>=3.0
+django-js-asset>=1.2.1
+django-markdown>=0.8.4
+django-phonenumber-field>=2.2.0
+django-redis>=4.10.0
+django-request>=1.5.4
+django-softdelete>=0.9.0
+django-tables2>=2.0.4
+django-taggit>=0.23.0
+django-urlcrypt>=0.1.6
+django-weasyprint>=0.5.4
+django-widget-tweaks>=1.4.3
+djangorestframework>=3.9.1
+easy-thumbnails>=2.6
+elasticsearch>=6.3.1
+googledrivedownloader>=0.3
+holidays>=0.9.9
+html5lib>=1.0.1
+hurry.filesize>=0.9
+hyperlink>=18.0.0
+idna>=2.8
+incremental>=17.5.0
+Jinja2>=2.10
+Markdown>=3.0.1
+MarkupSafe>=1.1.0
+mysqlclient>=1.3.12
+numpy>=1.16.1
+oauthlib>=3.0.1
+pandas>=0.24.1
+phonenumbers>=8.10.5
+phonenumberslite>=8.8.8
+Pillow>=5.2.0
+pipenv>=2018.11.26
+pycparser>=2.19
+PyHamcrest>=1.9.0
+Pyphen>=0.9.5
+PySocks>=1.6.8
+pysolr>=3.8.1
+python-dateutil>=2.7.5
+python-decouple>=3.1
+python3-openid>=3.1.0
+pytube>=9.4.0
+pytz>=2018.9
+rcssmin>=1.0.6
+redis>=3.1.0
+reportlab>=3.2.0
+requests>=2.21.0
+requests-oauthlib>=1.2.0
+rjsmin>=1.0.12
+serious-django-permissions>=0.6
+six>=1.12.0
+soupsieve>=1.7.3
+South>=1.0.2
+sqlparse>=0.2.4
+tinycss2>=1.0.1
+tweepy>=3.7.0
+txaio>=18.8.1
+urllib3>=1.24.1
+virtualenv>=16.0.0
+virtualenv-clone>=0.5.1
+WeasyPrint>=45
+webencodings>=0.5.1
+wget>=3.2
+Whoosh>=2.7.4
+zope.interface>=4.6.0
+
+smtp Mail Details:
+--------------------------------
+$mail = new PHPMailer;
+
+    $mail->isSMTP();
+    $mail->SMTPAuth = true;
+    $mail->SMTPDebug = 0;                     // enables SMTP debug information (for testing)
+    // 1 = errors and messages
+    // 2 = messages only
+    $mail->Host = 'smtp.gmail.com';
+    $mail->Username = 'gopalsrinivas333@gmail.com';
+    $mail->Password = 'qhxdffsioikauxfk';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
+
+    $mail->setFrom('gopalsrinivas333@gmail.com');
+	
+	// Adding malling address
+    $mail->addAddress('gopalsrinivas.b@gmail.com');
+    $mail->addAddress('ashugopal333@gmail.com');
+	
+	
+	
+	
+how-to-send-email-with-attachments-in-django
+	
+https://github.com/studygyaan/how-to-send-email-with-attachments-in-django
+
+
+https://stackoverflow.com/questions/2457906/sending-emails-with-attachment-in-django
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=empnQcWr1jE
+https://github.com/KenBroTech/Django-Inventory-Management-System
+
+
+Docker Commend List:
+---------------------------------
+
+docker-compose build
+docker-compose run --rm app django-admin startproject core .
+docker-compose up  --> every changes use this commend
+
+docker cli:
+-----------------
+ls
+cd /
+ls
+cd django
+ls
+cd core
+ls
+
+ 
