@@ -1,0 +1,177 @@
+Form submit: 
+-------------------
+1. https://tuts-station.com/django-ajax-post-request-example.html
+2. https://tuts-station.com/django-form-submit-using-formjs-example.html
+
+3. https://tuts-station.com/django-ajax-form-validation-example.html
+
+
+
+
+
+2. https://tuts-station.com/django-custom-login-and-registration-example.html
+
+2. https://tuts-station.com/how-to-use-bootstrap-4-forms-with-python-django.html
+3. https://tuts-station.com/python-django-select2-autocomplete-search-using-ajax-example.html
+4. https://tuts-station.com/django-autocomplete-search-with-select2-example.html
+5. https://tuts-station.com/how-to-use-formset-in-django.html
+6. https://tuts-station.com/django-alphanumeric-form-validation-example-tutorial.html
+7. https://tuts-station.com/django-regex-form-validation-example-tutorial.html
+8. https://tuts-station.com/django-admin-form-validation-error-example.html
+9. https://tuts-station.com/django-form-password-validation-example.html
+10. https://tuts-station.com/django-form-checkbox-validation-example.html
+11.https://tuts-station.com/django-form-validation-cleaned-data-example.html
+12. https://tuts-station.com/how-to-create-and-use-formview-in-django.html
+13. https://tuts-station.com/how-to-create-and-use-updateview-in-django.html
+14. https://tuts-station.com/django-crop-image-before-upload-using-cropper-js-example.html
+15. https://tuts-station.com/django-google-address-autocomplete-example.html
+16. https://tuts-station.com/how-to-get-current-url-in-django.html
+17. https://tuts-station.com/how-to-get-query-params-from-request-in-django.html
+18. https://tuts-station.com/django-get-object-by-id-example.html
+19. https://tuts-station.com/how-to-autocomplete-search-using-typeahead-js-in-django.html
+20. https://tuts-station.com/django-python-form-validation-example.html
+21. https://tuts-station.com/how-to-file-upload-using-dropzone-js-in-django-python.html
+22. https://tuts-station.com/django-python-sweet-alert-confirm-delete-example.html
+
+
+file-upload:
+------------------
+1. https://tuts-station.com/how-to-multiple-file-upload-using-ajax-in-django.html
+
+2. https://tuts-station.com/how-to-file-upload-using-ajax-in-django.html
+3. https://tuts-station.com/how-to-upload-multiple-files-in-django.html
+4. https://tuts-station.com/django-ajax-image-upload-example.html
+5. https://tuts-station.com/how-to-multiple-image-upload-in-python-django.html
+6. https://tuts-station.com/how-to-image-upload-in-python-django.html
+7. https://tuts-station.com/django-custom-import-export-example.html
+8. https://tuts-station.com/django-import-export-excel-to-database-example.html
+
+
+pagination:
+-------------------
+1. https://tuts-station.com/django-python-pagination-tutorial-example.html
+2. https://tuts-station.com/django-ajax-pagination-example-tutorial.html
+
+CURD:
+
+1. https://tuts-station.com/django-ajax-crud-example-tutorial.html
+2. https://tuts-station.com/django-crud-operation-using-class-based-views-example.html
+3. https://tuts-station.com/python-django-crud-example-tutorial.html
+
+
+
+google-recaptcha:
+-------------------
+1. https://tuts-station.com/django-google-recaptcha-v3-example.html
+
+
+send-email-with-attachment file:
+----------------------------------
+1. https://tuts-station.com/how-to-send-email-with-attachment-in-python-django.html
+2. https://tuts-station.com/how-to-send-email-with-multiple-file-attachment-in-python-django.html
+3. https://tuts-station.com/how-to-send-email-in-python-django.html
+4. https://tuts-station.com/how-to-send-email-to-multiple-user-using-django.html
+
+generate-qrcode:
+----------------------------------
+1. https://tuts-station.com/django-python-generate-qrcode-example-tutorial.html
+
+
+Razorpay Payment Gateway:
+----------------------------------
+1. https://tuts-station.com/django-python-razorpay-payment-gateway-integration-example.html
+
+
+generate-pdf:
+----------------------------------
+1. https://tuts-station.com/django-python-generate-pdf-example.html
+2. https://tuts-station.com/django-generate-pdf-from-html-view-pdf-and-download-example.html
+
+
+Other Topics:
+----------------------------------
+1. https://tuts-station.com/how-to-use-geolocation-in-django.html
+2. https://tuts-station.com/how-to-create-url-shortener-in-django.html
+3. https://tuts-station.com/how-to-add-user-profile-in-django-admin.html
+4. https://tuts-station.com/how-to-generate-sitemap-in-django.html
+5. https://tuts-station.com/how-to-use-and-create-signals-in-django.html
+6. https://tuts-station.com/django-extend-user-model-example.html
+7. https://tuts-station.com/django-read-and-write-text-file-example.html
+8. https://tuts-station.com/python-django-tags-system-example-tutorial.html
+9. https://tuts-station.com/how-to-generate-barcode-in-django.html
+10. https://tuts-station.com/how-to-create-csv-file-in-django.
+11.https://tuts-station.com/how-to-create-zip-file-and-download-in-django.html
+12. https://tuts-station.com/how-to-create-custom-manager-in-django.html
+13. https://tuts-station.com/how-to-use-markdown-in-django.html
+
+
+Admin:
+----------------------------------
+
+1. https://tuts-station.com/how-to-create-custom-admin-list-actions-in-django.html
+2. https://tuts-station.com/how-to-customize-django-admin-site.html
+3. https://tuts-station.com/django-objects-filter-not-equal-example.html
+4. https://tuts-station.com/exclude-one-or-multiple-objects-from-django-queryset-example.html
+
+
+Database_querys:
+----------------------------------
+1. https://tuts-station.com/how-to-merge-querysets-in-django.html
+2. https://tuts-station.com/python-django-queryset-filter-like-operator-example.html
+3. https://tuts-station.com/python-django-queryset-filter-in-operator-example.html
+4. https://tuts-station.com/django-objects-filter-case-insensitive-example.html
+5. https://tuts-station.com/python-django-filter-distinct-example-tutorial.html
+6. https://tuts-station.com/django-get-first-record-example.html
+7. https://tuts-station.com/django-get-last-record-example.html
+8. https://tuts-station.com/how-to-use-limit-and-offset-in-django-query.html
+9. https://tuts-station.com/django-python-order-by-example-tutorial.html
+
+Filters:
+----------------------------------
+1. https://tuts-station.com/how-to-filter-querysets-dynamically-in-django.html
+2. https://tuts-station.com/how-to-filter-querysets-dynamically-in-django.html
+3. https://tuts-station.com/python-django-filter-greater-than-example.html
+4. https://tuts-station.com/django-check-if-object-is-instance-of-model.html
+5. https://tuts-station.com/how-to-use-orwhere-query-in-django.html
+6. https://tuts-station.com/django-filter-query-example-tutorial.html
+7. https://tuts-station.com/how-to-use-search-filter-in-django.html
+
+Editors:
+----------------------------------
+1. https://tuts-station.com/how-to-use-tinymce-editor-in-django.html
+2. https://tuts-station.com/how-to-use-summernote-editor-in-django-python.html
+3. https://tuts-station.com/how-to-ckeditor-image-upload-in-django-python.html
+
+Unit Test:
+----------------------------------
+1. https://tuts-station.com/how-to-add-unit-testing-in-django.html
+
+
+social media logins:
+----------------------------------
+1. https://tuts-station.com/django-social-login-with-github-example.html
+2. https://tuts-station.com/django-social-login-with-facebook-example.html
+3. https://tuts-station.com/how-to-integrate-social-share-button-in-django.html
+4. https://tuts-station.com/django-google-login-using-django-allauth-example.html
+
+Charts:
+----------------------------------
+1. https://tuts-station.com/django-dynamic-google-bar-charts-example.html
+2. https://tuts-station.com/django-chartjs-line-chart-example-tutorial.html
+3. https://tuts-station.com/django-chartjs-pie-chart-example-tutorial.html
+4. https://tuts-station.com/django-chartjs-bar-chart-example-tutorial.html
+5. https://tuts-station.com/django-chartjs-chart-example-tutorial.html
+6. https://tuts-station.com/how-to-integrate-highchartsjs-in-django.html
+7. https://tuts-station.com/django-python-dynamic-google-line-charts-example.html
+
+cookies and session:
+----------------------------------
+1. https://tuts-station.com/how-to-set-and-get-cookie-variables-in-django.html
+2. https://tuts-station.com/how-to-set-and-get-session-variables-in-django.html
+
+ORM:
+----------------------------------
+
+1. https://tuts-station.com/django-python-many-to-many-relationship-example.html
+2. https://tuts-station.com/django-python-one-to-many-relationship-example.html
+3. https://tuts-station.com/django-python-one-to-one-relationship-example.html
